@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.aniby.mod.felmonplusplus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CapeFeatureRendererMixin",
+    "JoinServerMixin",
+    "LeaveServerMixin",
+    "PlayerListEntryMixin",
+    "SkinOptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
